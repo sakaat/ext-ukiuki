@@ -1,0 +1,14 @@
+{
+    "name": "ext_ukiuki",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "",
+    "content_scripts": [{
+        "matches": [
+            "https://ukiuki.in/ukiuki/kakeibo/easyInput.html",
+            "https://ukiuki.in/ukiuki/kakeibo/receipt.html*",
+            "https://ukiuki.in/ukiuki/kakeibo/kakeiInput.html*"
+        ],
+        "js": ["jquery.min.js", "replace.js"]
+    }]
+}
